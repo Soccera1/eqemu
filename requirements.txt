@@ -1,0 +1,6 @@
+- Create an easy QEMU VM creator in C99 with ncurses.
+- Use /**/ comments exclusively.
+- Allow creation of any semi-normal configuration including setting different virtual hardware and passing through devices.
+- Allow setting custom storage devices, chipset, BIOS or UEFI, and more within the ncurses interface.
+- For other configs, allow the user to edit the XML in $EDITOR.
+- If $EDITOR does not exist, fall back based on these, in order from highest to lowest: $VISUAL, vi, nano, vim, nvim, emacs.

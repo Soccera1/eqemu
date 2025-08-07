@@ -1,0 +1,9 @@
+# Compiled artifacts
+*.o
+eqemu
+
+# Editor and OS temporary files
+*~
+.swo
+.swp
+.DS_Store
